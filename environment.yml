@@ -1,0 +1,43 @@
+name: gee_env
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+
+  # core
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - dask
+  - zarr
+  
+
+  # geo
+  - rasterio
+  - rioxarray
+  - geopandas
+  - shapely
+  - pyproj
+  - pyogrio
+
+  # netcdf/hdf
+  - netcdf4
+  - h5py
+  - cftime
+
+  # jupyter
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+
+  # earth engine
+  - geemap
+  - earthengine-api
+  - xee
+
+  # optional grib
+  - cfgrib
+  - eccodes

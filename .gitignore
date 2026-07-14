@@ -1,0 +1,56 @@
+# --- DADOS ---
+*.nc
+*.tif
+*.tiff
+*.gpkg
+*.csv
+*.xlsx
+
+# Bloquear TODA a família do Shapefile de uma vez
+*.shp
+*.shx
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.fbn
+*.fbx
+*.ain
+*.aih
+*.atx
+*.qix
+*.cpg
+*.qpj
+
+# --- IMAGENS E RESULTADOS ---
+*.png
+*.jpeg
+*.jpg
+*.pdf
+
+# --- PYTHON E AMBIENTE (Essencial para não dar erro no Kernel) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+.venv/
+venv/
+env/
+.conda/
+
+# --- IDE E SISTEMA ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Pastas
+data/raw/*
+data/processed/*
+data/external/*
+outputs/*
+docs/*
+
+# Mas NÃO ignora o arquivo .gitkeep dentro delas
+!data/**/.gitkeep
+!results/**/.gitkeep

@@ -1,8 +1,7 @@
-name: gee_env
-
+name: geo
 channels:
   - conda-forge
-
+  - defaults
 dependencies:
   - python=3.11
 
@@ -13,7 +12,6 @@ dependencies:
   - xarray
   - dask
   - zarr
-  
 
   # geo
   - rasterio
@@ -28,11 +26,6 @@ dependencies:
   - h5py
   - cftime
 
-  # jupyter
-  - jupyterlab
-  - ipykernel
-  - ipywidgets
-
   # earth engine
   - geemap
   - earthengine-api
@@ -41,3 +34,4 @@ dependencies:
   # optional grib
   - cfgrib
   - eccodes
+
